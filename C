@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+int varx = 2;
+int vary = 2;
+int exponencial = pow(varx,vary);
+int raiz = sqrt(exponencial);
+printf("O resultado exponencial de %d elevado a %d e %d\n", varx,vary,exponencial);
+printf("a raiz do exponencial e %d",raiz);
+}
+
